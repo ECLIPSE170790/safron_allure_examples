@@ -21,7 +21,7 @@ public class TestForGithub {
     @Test
     @AllureId("10559")
     @DisplayName("Авторизация без логина и пароля.")
-    void signWithoutEmail() {
+    public void signWithoutEmail() {
         step("Открыть страницу "+ url);
         open(url);
         step("Нажать на кнопку SignIn");
@@ -35,7 +35,7 @@ public class TestForGithub {
     @Test
     @AllureId("10560")
     @DisplayName("Авторизация с логином и без пароля.")
-    void signWithEmail() {
+    public void signWithEmail() {
         step("Открыть страницу "+ url);
         open(url);
         step("Нажать на кнопку SignIn");
