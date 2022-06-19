@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 
 
 @Owner("allure8")
-public class TestForGithub {
+public class TestForGithub extends TestBase {
 
     private final String url = "https://github.com";
 
